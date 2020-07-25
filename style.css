@@ -1,0 +1,94 @@
+header{
+  background-color: white;
+}
+nav{
+  text-align: end;
+  margin: 40px auto;
+}
+section{
+  text-align: center;
+}
+/* navigation pane to for exploring*/
+nav a{
+  font-size: 16px;
+  font-family: verdana, helvetica, arial;
+  text-transform: uppercase;
+  margin-right: 40px;
+  color: grey;
+}
+nav a:hover{
+  color: green;
+}
+h1{
+  color: grey;
+  font-family: Tisa,Calibri, sans-serif;
+  font-size: 90px;
+  text-align: left;
+}
+h2{
+  font-family: Tisa; calibri, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: grey;
+}
+/* styling image*/
+img{
+  margin: 180px;
+  width: 400px;
+  height: 400px;
+  border-radius:50%;
+}
+p{
+  font-family: georgia, 'Courier New', Courier;
+  font-size: 14px;
+}
+/*broken out lists for styling */
+ ol li {
+  font-family: georgia, 'Times New Roman', verdana;
+  text-align: center;
+  padding: 5px;
+  position: initial;
+  color: grey;
+  list-style-position: inside;
+  font-size: 18px;
+}
+
+ul li{
+  list-style-type: inherit;
+  list-style-type: square;
+  list-style-position: inside;
+  font-family: Georgia, 'Times New Roman', Verdana;
+  font-size: 18px;
+  color: grey;
+}
+.about{
+  color: white;
+  background-color: red;
+  padding: 20px;
+  margin: 50px 0px 0px;
+  height: 300px;
+}
+.contact{
+color:black; 
+padding: 20px;
+margin: 50px 0px 0px;
+height: 400px;
+text-align: center;
+ 
+}
+.wrapper {
+  width: 300px;
+  margin: auto;
+}
+/*style footer*/
+footer{
+  color:white;
+  background-color:grey;
+  font-family: Verdana, Geneva, sans-serif;
+  font-siz: 14px;
+  padding: 5px;
+  margin: 10px 0px 0px;
+  height: 30px;
+  width: cover;
+  text-align: center;
+}
